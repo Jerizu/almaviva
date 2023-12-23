@@ -300,15 +300,27 @@ button:hover{
     }
 }
 
-@media screen and (max-height: 24em) {
+@media screen and (max-height: 950px) {
+
+    .animation {
+        margin: auto;
+        background-image: url("https://github.com/Jerizu/almaviva/blob/main/arquivos/animations/Male%20Call%20center%20Operator.gif?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40em;
+        width: 40em;
+        font-size:xx-small;
+        text-align: center;
+        margin-top: 70%;
+
     .menu li,
     .menu-bar {
-        font-size: 85%;
+        font-size: 95%;
         width: auto;
     }
     .menu {
         border-radius: 0px 0px 20px 20px;
-        height: 3.3em;
+        height: 4em;
     }
 }
 
