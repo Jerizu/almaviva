@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.animation {
+    margin: auto;
+    background-image: url("https://github.com/Jerizu/almaviva/blob/main/arquivos/animations/Male%20Call%20center%20Operator.gif?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35em;
+    width: 35em;
+    font-size:xx-small;
+    text-align: center;
+}
+
 .menu li a.Configuracoes:before {
     content: "\f1c1";
 }
@@ -177,10 +188,10 @@ button:hover{
         margin-top: 100px;
     }
     .menu,.menu-bar {
-    position: relative;
+        position: relative;
     }
     .menu {
-        height: 3.3em;
+        height: 4em;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
     }
@@ -190,8 +201,9 @@ button:hover{
     }
     .menu li a {
         padding-inline: 0.5em;
-        width: 3.4em;
+        width: 4em;
         border-radius: 20px;
+        height: 5em;
     }
     .menu li {
         display: inline-block;
@@ -223,14 +235,30 @@ button:hover{
         position: relative;
         padding-left: 3%;
         top: 5%;
-    
+    }
+    .texto{
+        padding-top: 2em;
+    }
 }
 @media all and (max-width: 380px) {
+    
+    .animation {
+        margin: auto;
+        background-image: url("https://github.com/Jerizu/almaviva/blob/main/arquivos/animations/Male%20Call%20center%20Operator.gif?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 33em;
+        width: 33em;
+        font-size:xx-small;
+        text-align: center;
+        margin-top: 18%;
+    }
+    
     .container {
         margin-top: 100px;
     }
     .menu {
-        height: 3.3em;
+        height: 4em;
         width: 100%;
         border-radius: 0px 0px 20px 20px;
     }
@@ -243,7 +271,7 @@ button:hover{
     }
     .menu li a {
         padding-inline: 0.5em;
-        width: relative;
+        width: 5em;
         border-radius: 20px;
     }
     .menu li {
@@ -285,6 +313,19 @@ button:hover{
 }
 
 @media screen and (min-width:257px) and (max-width: 300px) {
+
+    .animation {
+        margin: auto;
+        background-image: url("https://github.com/Jerizu/almaviva/blob/main/arquivos/animations/Male%20Call%20center%20Operator.gif?raw=true");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30em;
+        width: 30em;
+        font-size:xx-small;
+        text-align: center;
+        margin-top: 35%;
+    }
+
     .menu li,
     .menu-bar {
         font-size: 85%;
@@ -292,14 +333,14 @@ button:hover{
     }
     .menu {
         border-radius: 0px 0px 20px 20px;
-        height: 3.3em;
+        height: 4em;
     }
     .menu,.menu-bar {
         position: relative;
     }
      .menu li a {
         padding-inline: 0.5em;
-        width: 3.4em;
+        width: 4em;
         border-radius: 0px 0px 20px 20px;
     }
     .menu-bar {
@@ -314,7 +355,7 @@ button:hover{
         width: auto;
     }
     .menu {
-        height: 3.3em;
+        height: 4em;
         border-radius: 0px 0px 20px 20px;
     }
     .menu-bar {
