@@ -19,11 +19,11 @@
     content: "\f1c1";
 }
 
-.menu li a.Email:before {
+.menu li a.VR:before {
     content: "\f2e7";
 }
 
-.menu li a.Vendas:before {
+.menu li a.Portal:before {
     content: "\f590";
 }
 
@@ -35,7 +35,7 @@
     content: "\f1c1";
 }
 
-.menu li a.Home:before {
+.menu li a.VT:before {
     content: "\f207";
     }
 
